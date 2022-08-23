@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
-
+import { TaskI } from './create-post/task';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mean-course';
-}
+//   StoredTask: TaskI[] = [];
+//   onTaskAdded(tasks){
+// this.StoredTask.push(tasks);
+  }
+
