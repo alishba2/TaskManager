@@ -1,18 +1,15 @@
-
+<h3>CREATE TASK</h3>
 <mat-card >
 
-  <form  (submit)="addtask(postTask)" #postTask="ngForm">
+  <form  (submit)="post(postTask)" #postTask="ngForm">
     <mat-form-field>
-      <input matInput type="text" name="title" ngModel required minlength="3">
-
+      <input matInput type="text" name="title" ngModel required minlength="3" placeholder="title">
     </mat-form-field>
     <mat-form-field>
-      <textarea matInput  rows="6" name="content" ngModel required minlength="5"></textarea>
+      <textarea matInput  rows="6" name="content" ngModel required minlength="5" placeholder="content"></textarea>
     </mat-form-field>
     <button mat-raised-button color="primary" type="submit">Save Task</button>
   </form>
-
-
 </mat-card>
 
 <hr>

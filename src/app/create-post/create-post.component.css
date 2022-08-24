@@ -1,8 +1,18 @@
 mat-card{
   width: 80%;
-  margin: auto;
+  margin: 3rem auto;
+
 }
 mat-form-field,
 textarea{
   width: 100%;
 }
+h3{
+  text-align: center;
+  margin: 3rem auto;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem;
+
+}
+
+

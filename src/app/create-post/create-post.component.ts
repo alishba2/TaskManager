@@ -14,12 +14,12 @@ export class CreatePostComponent  implements OnInit {
   constructor(private taskService : TaskService) { }
   enterTitle='';
   enteredContent='';
-  addtask(form: NgForm){
+  post(form: NgForm){
 if(form.invalid){
   return;
 }
-
-    this.taskService.addtask(form.value.title, form.value.content)
+// this.taskService.postTask({title:'test', content:'test content'}).subscribe() ;
+    this.taskService.post({title:form.value.title, content:form.value.content}).subscribe();
   }
 
   ngOnInit(): void {

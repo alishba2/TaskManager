@@ -9,8 +9,6 @@ const routes: Routes = [
   // {path:'task-list' , component:TaskListComponent},
   // {path:'', component:HeaderComponent},
   // {path:'', redirectTo:'/createPost' , pathMatch:'full'}
-
-
 ];
 
 @NgModule({
